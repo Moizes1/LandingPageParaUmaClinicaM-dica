@@ -1,0 +1,50 @@
+@media (max-width: 994px){
+	.botao {
+		display: flex;
+		align-self: center;
+		text-align: center;
+	}
+
+	#contatos {
+		margin-left: 22vh;
+	}
+
+	#contatos i{
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 516px) {
+	.navbar {
+		background: blue;
+	}
+
+	.navbar .fone {
+		color: white;
+	}
+
+	.navbar .whatsapp {
+		color: white;
+	}
+
+	.navbar a {
+		color: white;
+	}
+
+	.navbar .navbar-toggler {
+		color: white;
+	}
+
+	.bloco {
+		visibility: hidden;
+	}
+
+	#conteudoLinks {
+		margin-top: 15vh;
+	}
+
+	.botao {
+		margin-top: 10vh;
+	}
+}
+

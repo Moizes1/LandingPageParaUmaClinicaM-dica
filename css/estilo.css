@@ -1,0 +1,289 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Times, Times New Roman, serif;
+	font-size: 19px;
+}
+
+/*-- inicio configuração pagina index --*/
+
+/*-- inicio conteudo cabeçalho --*/
+
+.navbar {
+	background-color: #E6E0F8;
+}
+
+.navbar .fa-phone {
+	color: blue;
+}
+
+.navbar .fone {
+	color: blue;
+}
+
+.navbar .fa-whatsapp {
+	color: green;
+}
+
+.navbar .whatsapp {
+	color: green;
+}
+
+#contatos a {
+	text-decoration: none;
+}
+
+#navegacao {
+	margin-right: 12vh;
+}
+/*-- fim conteudo cabeçalho --*/
+
+/*-- inicio conteudo principal --*/
+#conteudo-principal {
+	background: url('../img/clinica-9.jpg') no-repeat;
+	background-size: cover;
+	height: 90vh;
+}
+
+#conteudo-links {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	color: purple;
+	margin-top: 5vh;
+}
+
+.botao {
+	display: flex;
+	justify-content: center;
+	width: 40vh;
+	border-radius: 20px;
+	margin-top: 4vh;
+	text-align: center;
+}
+
+.bloco {
+	height: 50vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+
+}
+
+.blocos {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #8181F7;
+	border-radius: 30%;
+	height: 170px;
+	width: 200px;
+}
+
+.blocos:hover {
+	border: 5px solid #2EFE2E;
+}
+/*-- fim conteudo principal --*/
+
+
+/*-- inicio conteudo plano --*/
+.conteudo-plano {
+	background-color: #FAFAFA;
+	padding: 4vh;
+}
+
+.plano {
+	color: white;
+	padding: 4vh;
+}
+
+.informacoes {
+	margin-top: 3vh;
+	color: #0B0B3B;
+	padding: 1vh;
+}
+
+.informacoes p {
+	color: blue;
+}
+
+.informacoes h4 {
+	color: blue;
+}
+
+.link-informacoes {
+	display: flex;
+	justify-content: center;
+}
+
+.link-informacoes a {
+	border-radius: 5px;
+	padding: 4vh;
+	margin-top: 4vh;
+	background-color: #3A01DF	;
+	color: white;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.link-informacoes a:hover{
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+#frase-informacoes {
+	margin-top: 16vh;
+	text-align: center;
+}
+
+.apps {
+	margin-top: 4vh;
+}
+/*-- fim conteudo plano --*/
+
+
+/*-- inicio conteudo quem somos --*/
+#quem-somos {
+	background: url('../img/clinica-6.jpg') no-repeat;
+	background-size: cover;
+	height: 85vh;
+}
+
+#historia {
+	padding: 20px;
+	margin-top: 10vh;
+}
+
+#historia p {
+	color: #8904B1;
+}
+
+#fotos-carousel {
+	border: 1px solid green;
+}
+
+.carousel-item img {
+	background-size: cover;
+}
+/*-- fim conteudo quem somos --*/
+
+
+/*-- inicio conteudo especialidade --*/
+#frase-especialidade {
+	background: url('../img/especialidade.jpg') no-repeat;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	background-size: cover;
+	height: 20vh;
+	font-size: 7vh;
+	color: white;
+}
+
+.especialidade {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid blue;
+	height: 30vh;
+	margin-top: 15vh;
+}
+
+.especialidade:hover {
+	background-color: #E6E0F8;
+}
+
+.especialidade a {
+	text-decoration: none;
+}
+
+#link-especialidades {
+	display: flex;
+	justify-content: center;
+	margin-top: 15vh;
+}
+/*-- fim conteudo especialidade --*/
+
+
+/*-- inicio conteudo convenio --*/
+#convenio {
+	margin-top: 10vh;
+	background-color: #E0E0F8;
+}
+
+#frase-convenio {
+	display: flex;
+	justify-content: center;
+	background-color: #5858FA;
+	height: 20vh;
+	font-size: 7vh;
+	color: white;
+}
+
+.convenio {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #D8CEF6;
+	border-radius: 5px;
+	height: 20vh;
+	margin-top: 5vh;
+	margin-bottom: 10vh;
+}
+/*-- fim conteudo convenio --*/
+
+
+/*-- inicio conteudo localidade --*/
+#localidade {
+	background-color: #0000FF;
+}
+
+#localizacao {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5vh;
+}
+
+#localizacao iframe {
+	border-radius: 5px;
+}
+
+#links-localizacao {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 4vh;
+}
+
+#links-localizacao ul {
+	list-style: none;
+}
+
+#links-localizacao a {
+	color: white;
+	padding: 3vh;
+}
+/*-- fim conteudo localidade --*/
+
+
+footer {
+	background-color: #08088A;
+}
+
+ #autor {
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+	color: white;
+}
+
+#frase-autor {
+	margin-top: 3vh;
+}
+/*-- fim configuração pagina index --*/
+
+
+
